@@ -47,3 +47,27 @@ function areaCirculo(radio) {
 }
 console.groupEnd();
 // Fin Código del círculo
+
+
+// Aqui interactuamos con el HTL
+
+
+
+function calcularPerimetroCuadrado() {
+    const input = document.getElementById("InputCuadrado");
+    const value = input.value;
+
+    const perimetro = perimetroCuadrado(value);
+
+    alert(perimetro);
+
+}
+
+function calcularAreaCuadrado(params) {
+    const input = document.getElementById("InputCuadrado");
+    const value = input.value;
+
+    const area = areaCuadrado(value);
+
+    alert(area);
+}
